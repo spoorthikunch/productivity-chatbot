@@ -34,22 +34,23 @@ def create_vectorstore(chunks):
     )
     vectorstore = Chroma.from_documents(
         documents=chunks,
-        embedding=embeddings,
-        persist_directory="./chroma_db"
+        embedding=embeddings
     )
     print(f"Vector store created with {vectorstore._collection.count()} chunks")
     return vectorstore
 
 # ── Step 4: Load LLM ──
 def load_llm():
-    print("Loading LLM... (first time takes a few minutes)")
+    from transformers import pipeline as hf_pipeline
+    from langchain_huggingface import HuggingFacePipeline
+    
+    print("Loading LLM...")
+    
     hf_pipe = hf_pipeline(
         "text-generation",
-        model="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-        max_new_tokens=300,
+        model="facebook/opt-125m",
+        max_new_tokens=150,
         do_sample=False,
-        temperature=None,
-        top_p=None,
     )
     llm = HuggingFacePipeline(pipeline=hf_pipe)
     print("LLM loaded!")
@@ -80,17 +81,18 @@ def build_rag_chain(vectorstore, llm):
         return text.strip()
 
     prompt = ChatPromptTemplate.from_template("""
-You are a personal productivity coach analyzing someone's daily habits.
-Use the log data below to answer the question.
-Give specific observations and actionable suggestions based on the data.
-If the data doesn't contain enough information, say so honestly.
+You are a personal productivity coach. 
+Answer ONLY using the specific log data provided below.
+Do NOT give generic advice.
+Reference specific apps, hours, dates and scores from the data.
+If the data doesn't contain the answer, say "I don't have enough data yet."
 
 Log Data:
 {context}
 
 Question: {question}
 
-Answer:""")
+Answer with specific details from the log data:""")
 
     from langchain_core.runnables import RunnableLambda
 
