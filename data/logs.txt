@@ -1,0 +1,70 @@
+Date: 2024-01-15
+Screen Time: 8 hours
+Most Used Apps: Instagram (2.5 hours), YouTube (2 hours), WhatsApp (1.5 hours), Chrome (2 hours)
+Sleep: 6 hours
+Exercise: No
+Mood: Tired
+Productivity Score: 3/10
+Notes: Spent too much time on social media. Felt distracted all day. Did not complete any important tasks.
+
+Date: 2024-01-16
+Screen Time: 5 hours
+Most Used Apps: Chrome (2 hours), WhatsApp (1 hour), Instagram (1 hour), Spotify (1 hour)
+Sleep: 7.5 hours
+Exercise: Yes - 30 mins walk
+Mood: Good
+Productivity Score: 7/10
+Notes: Completed two major tasks. Limited social media use. Felt focused and energetic.
+
+Date: 2024-01-17
+Screen Time: 9 hours
+Most Used Apps: YouTube (3 hours), Instagram (2.5 hours), Netflix (2 hours), WhatsApp (1.5 hours)
+Sleep: 5 hours
+Exercise: No
+Mood: Anxious
+Productivity Score: 2/10
+Notes: Could not sleep well. Kept scrolling late at night. Completely unproductive day.
+
+Date: 2024-01-18
+Screen Time: 4 hours
+Most Used Apps: Chrome (1.5 hours), Spotify (1 hour), WhatsApp (1 hour), Instagram (30 mins)
+Sleep: 8 hours
+Exercise: Yes - 45 mins gym
+Mood: Excellent
+Productivity Score: 9/10
+Notes: Best day this week. Exercised in morning, limited phone use, completed all tasks ahead of schedule.
+
+Date: 2024-01-19
+Screen Time: 7 hours
+Most Used Apps: Instagram (2 hours), YouTube (2 hours), WhatsApp (1.5 hours), Chrome (1.5 hours)
+Sleep: 6.5 hours
+Exercise: No
+Mood: Average
+Productivity Score: 5/10
+Notes: Average day. Social media use crept up in the evening. Completed some tasks but not all.
+
+Date: 2024-01-20
+Screen Time: 3.5 hours
+Most Used Apps: Chrome (1.5 hours), WhatsApp (1 hour), Spotify (1 hour)
+Sleep: 8.5 hours
+Exercise: Yes - 1 hour yoga
+Mood: Excellent
+Productivity Score: 10/10
+Notes: Exceptional day. Minimal phone use, great sleep the night before, exercised and felt fully in control.
+
+Date: 2024-01-21
+Screen Time: 6.5 hours
+Most Used Apps: YouTube (2.5 hours), Instagram (2 hours), WhatsApp (1 hour), Chrome (1 hour)
+Sleep: 6 hours
+Exercise: No
+Mood: Tired
+Productivity Score: 4/10
+Notes: Weekend laziness. Watched too much YouTube. Felt guilty but could not stop scrolling.
+Date: 2026-03-13
+Screen Time: 4.0 hours
+Most Used Apps: 
+Sleep: 7.0 hours
+Exercise: No
+Mood: Tired
+Productivity Score: 5/10
+Notes: 
